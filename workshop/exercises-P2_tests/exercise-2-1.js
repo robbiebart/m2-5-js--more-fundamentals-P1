@@ -7,12 +7,25 @@
 // If it's an empty string (''), return undefined.
 
 function firstLetter(str) {
-  // Your code here
+  if (str === '') {
+    return undefined;
+  } else {
+    return str.slice(0, 1);
+  }
 }
 
 // Step 2
 // We need 5 test cases. The first input is provided.
 // Don't forget to test all of the question parameters
+
+// function expect(result, value) {
+//   if (result === value) {
+//     console.log('it worked');
+//   } else {
+//     console.log('something went wrong');
+//   }
+// }
+// did not notice the test was below 
 
 expect(firstLetter('max'), 'm');
 expect(firstLetter('bacon'), 'b');
