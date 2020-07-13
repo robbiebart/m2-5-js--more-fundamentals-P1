@@ -1,4 +1,4 @@
-@import 'css-reset.css';
+@import "css-reset.css";
 
 body {
   background: #fafafa;
@@ -17,7 +17,7 @@ h1 {
   border: 2px solid #606060;
   border-radius: 2px;
   padding: 24px;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .buttons {
